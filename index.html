@@ -1,16 +1,108 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Стартовый HTML-шаблон</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Социальная сеть</title>
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/normalize.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="p-3 mb-3 border-bottom">
+        <div class="container">
+          <div
+            class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+          >
+            <a
+              href="/"
+              class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                x="0px"
+                y="0px"
+                width="50"
+                height="50"
+                viewBox="0 0 50 50"
+              >
+                <path
+                  d="M9,48c-0.172,0-0.345-0.044-0.501-0.135c-0.393-0.228-0.582-0.691-0.463-1.128l12.02-44c0.111-0.406,0.465-0.7,0.885-0.733 c0.428-0.025,0.816,0.201,0.99,0.584l9.98,22c0.172,0.379,0.091,0.826-0.204,1.12l-22,22C9.515,47.9,9.258,48,9,48z M40.91,24.587 l-10-22c-0.174-0.385-0.573-0.623-0.991-0.583c-0.42,0.034-0.774,0.329-0.884,0.736l-1.807,6.683l6.504,14.338 c0.514,1.13,0.269,2.481-0.611,3.36L18.487,41.755l-1.347,4.984c-0.118,0.438,0.073,0.9,0.465,1.127 c0.156,0.09,0.329,0.134,0.5,0.134c0.26,0,0.517-0.101,0.709-0.294l21.895-22C41.002,25.411,41.082,24.965,40.91,24.587z"
+                ></path>
+              </svg>
+            </a>
+
+            <ul
+              class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
+            >
+              <li>
+                <a href="#" class="nav-link px-2 link-secondary">Overview</a>
+              </li>
+              <li>
+                <a href="#" class="nav-link px-2 link-body-emphasis"
+                  >Inventory</a
+                >
+              </li>
+              <li>
+                <a href="#" class="nav-link px-2 link-body-emphasis"
+                  >Customers</a
+                >
+              </li>
+              <li>
+                <a href="#" class="nav-link px-2 link-body-emphasis"
+                  >Products</a
+                >
+              </li>
+            </ul>
+
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+              <input
+                type="search"
+                class="form-control"
+                placeholder="Search..."
+                aria-label="Search"
+              />
+            </form>
+
+            <div class="dropdown text-end">
+              <a
+                href="#"
+                class="d-block link-body-emphasis text-decoration-none dropdown-toggle"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img
+                  src="img/avatar.jpg"
+                  alt="mdo"
+                  width="32"
+                  height="32"
+                  class="rounded-circle"
+                />
+              </a>
+              <ul class="dropdown-menu text-small">
+                <li><a class="dropdown-item" href="#">New project...</a></li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Sign out</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
 
     <script src="js/main.js"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
